@@ -1,0 +1,143 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{cmap} % поиск в PDF
+\usepackage[english, russian]{babel} % локализация и переносы
+\parskip=3pt % дополнительное расстояние между абзацами
+\usepackage{graphicx} % вставка рисунков
+\usepackage{lastpage}
+\usepackage{rotating}
+%\usepackage{minted} % красивый код
+\usepackage{verbatim}
+\usepackage{multirow} % Слияние строк в таблице
+\usepackage{caption}
+\usepackage{amsfonts, amssymb, amsthm, mathtools, amsmath} % AMS
+\usepackage{array} % Дополнительная работа с таблицами
+\usepackage{multicol}
+
+%%% Цветной текст
+
+\usepackage[usenames]{color}
+\usepackage{colortbl}
+
+%% Поля
+
+\usepackage{geometry} 
+\geometry{left=2cm}
+\geometry{right=2cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+
+%%% Гиперссылки
+
+\usepackage[unicode]{hyperref}
+\usepackage{xcolor}
+\definecolor{urlcolor}{HTML}{4682B4} % цвет гиперссылок
+\definecolor{linkcolor}{HTML}{4682B4} % цвет ссылок
+\definecolor{citecolor}{HTML}{4682B4} % цвет библиоссылок
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, citecolor=citecolor, colorlinks=true}
+
+%% Немного дизайна
+
+\definecolor{lb}{rgb}{0.8,0.85,1}
+\renewcommand{\labelitemi}{$\diamond$}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+	\textbf{ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ}\\
+	\vspace{3ex}
+	\textbf{Федеральное государственное автономное\\ образовательное учреждение высшего образования}
+	
+	\vspace{3ex}
+	
+	\textbf{Национальный исследовательский университет \\ <<Высшая школа экономики>>}
+	
+	\vspace{10ex}
+	\begin{flushright}
+		Факультет экономических наук\\
+		Образовательная программа <<Экономика>>
+	\end{flushright}
+\end{center}
+\vspace{12ex}
+
+\begin{center}
+	{\textbf{КУРСОВАЯ РАБОТА
+	}}
+	\vspace{1ex}
+	
+	<<Новая тема>>
+\end{center}
+\vspace{4ex}
+\begin{flushright}
+	\noindent
+	Студентка группы БЭК171\\Махнева Елизавета Александровна\\
+	\vspace{13ex}
+	Научный руководитель:\\
+	Соколов Евгений Андреевич
+	
+\end{flushright}	
+
+\vfill
+
+\begin{center}
+	Москва 2020
+	
+\end{center}
+\newpage
+	\tableofcontents
+	\newpage
+	
+	\section{Введение}
+	\input{chapters/1_begin.tex}
+	\newpage
+	
+	\section{Интерпретация - подумать над названием}
+	\subsection{Зачем она нужна}
+	\input{chapters/2_1inter.tex}	
+	\subsection{Что можно интерпретировать}
+	\input{chapters/2_2inter.tex}
+	\subsection{Методы}
+	\input{chapters/2_3inter.tex}
+	\newpage
+	
+	\section{Методы и их принципы}
+	\subsection{PDP + реализация}
+	\input{chapters/3_pdp.tex}
+	\subsection{LIME + реализация}
+	\input{chapters/3_lime.tex}
+	\subsection{SHAP + реализация}
+	\input{chapters/3_shap.tex}
+	\newpage
+
+	\section{Примеры}
+	\subsection{Первый прикольный пример}
+	\input{chapters/4_1ex.tex}
+	\subsection{Второй прикольный пример}
+	\input{chapters/4_2ex.tex}
+	\newpage
+
+	\section{Данные и модели}
+	\input{chapters/5_desc.tex}
+	\subsection{Данные}
+	\input{chapters/5_data.tex}
+	\subsection{Модели}
+	\input{chapters/5_models.tex}
+	\subsection{Попытка интерпретации}
+	\input{chapters/5_inter.tex}
+	\newpage
+	
+	\section{Анализ результатов}
+	\input{chapters/6_analysis.tex}
+	\newpage
+	
+	\section{Заключение}
+	\input{chapters/7_end.tex}
+	\newpage
+	
+	\begin{thebibliography}{99}
+		\bibitem{basis}
+		\href{https://christophm.github.io/interpretable-ml-book/}{Interpretable Machine Learning | Christoph Molnar | Christoph Molnar | 2020 | all pages}
+	\end{thebibliography}
+\end{document}
