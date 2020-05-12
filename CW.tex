@@ -41,6 +41,19 @@
 \definecolor{lb}{rgb}{0.8,0.85,1}
 \renewcommand{\labelitemi}{$\diamond$}
 
+\newcommand{\e}{\mathbb{E}}
+\newcommand{\p}{\mathbb{P}}
+\newcommand{\n}{\mathbb{N}}
+\newcommand{\id}{\mathbb{I}}
+\newcommand{\re}{\mathbb{R}}
+\DeclareMathOperator{\plim}{plim}
+\DeclareMathOperator{\var}{Var}
+\DeclareMathOperator{\svar}{sVar}
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\msum}{\sum\limits_1^n}
+\newcommand{\isum}{\sum\limits_i^n}
+\newcommand{\jsum}{\sum\limits_j^n}
+
 
 \begin{document}
 
@@ -67,7 +80,7 @@
 	}}
 	\vspace{1ex}
 	
-	<<Новая тема>>
+	<<Методы интерпретации моделей машинного обучения>>
 \end{center}
 \vspace{4ex}
 \begin{flushright}
@@ -103,14 +116,18 @@
 	\newpage
 	
 	\section{Методы и их принципы}
-	\subsection{PDP (partial dependence plot)}
+	\subsection{PDP}
 	\input{chapters/3_pdp.tex}
 	\subsubsection{Принцип работы}
 	\input{chapters/3_1pdp.tex}
 	\subsubsection{Реализация}
 	\input{chapters/3_2pdp.tex}
-	\subsection{LIME + реализация}
+	\subsection{LIME}
 	\input{chapters/3_lime.tex}
+	\subsubsection{Принцип работы}
+	\input{chapters/3_1lime.tex}
+	\subsubsection{Реализация}
+	\input{chapters/3_2lime.tex}
 	\subsection{SHAP + реализация}
 	\input{chapters/3_shap.tex}
 	\newpage
