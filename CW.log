@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.17)  31 MAY 2020 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.17)  3 JUN 2020 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,10 +832,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
  []
 
 ) (./chapters/3_2lime.tex) (./chapters/3_shap.tex [6] [7])
-(./chapters/3_1shap.tex [8]) (./chapters/3_2shap.tex) [9]
-(./chapters/5_desc.tex) (./chapters/5_data.tex) (./chapters/5_models.tex)
-(./chapters/5_inter.tex) [10] (./chapters/6_analysis.tex) [11]
-(./chapters/7_end.tex) [12] 
+(./chapters/3_1shap.tex [8]
+Overfull \hbox (15.87073pt too wide) in paragraph at lines 39--39
+[]\T2A/cmr/m/n/12 Для дан-но-го спо-со-ба ана-ло-гич-но пе-ре-би-ра-ют-ся раз-н
+ые ком-би-на-ции $\OML/cmm/m/it/12 z[]$ \T2A/cmr/m/n/12 на-ли-чия/отсутствия
+ []
+
+) (./chapters/3_2shap.tex) [9] (./chapters/5_desc.tex) (./chapters/5_data.tex)
+(./chapters/5_models.tex) (./chapters/5_inter.tex) [10]
+(./chapters/6_analysis.tex) [11] (./chapters/7_end.tex) [12]
+
 AED: lastpage setting LastPage
 [13]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
@@ -848,13 +854,13 @@ Package rerunfilecheck Info: File `CW.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 13372 strings out of 492639
- 188005 string characters out of 6133087
+ 13373 strings out of 492639
+ 188015 string characters out of 6133087
  290486 words of memory out of 5000000
  16984 multiletter control sequences out of 15000+600000
  15406 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,19n,38p,1300b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,19n,38p,1300b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-di
@@ -868,10 +874,10 @@ e/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/tex
 mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
 public/cm-super/sfrm1200.pfb>
-Output written on CW.pdf (13 pages, 204187 bytes).
+Output written on CW.pdf (13 pages, 207505 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
