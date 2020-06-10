@@ -1,0 +1,18 @@
+Для анализа описанных методов я выбрала следующие модели: CatBoost (сложная модель), логистическая регрессия (простая интерпретируемая модель) и решающее дерево (простая интерпретируемая модель)
+
+\paragraph{CatBoost.}
+В первую очередь мне необходимо установить и импортировать данную библиотеку
+
+$\verb|pip install catboost|$
+
+$\verb|from catboost import CatBoostClassifier|$
+
+\paragraph{LogisticRegression и DecisionTreeClassifier.}
+Я буду использовать реализации данных моделей в $\verb|sklearn|$:
+
+$\verb|from sklearn.linear_model import LogisticRegression|$
+
+$\verb|from sklearn.tree import DecisionTreeClassifier|$
+
+Обе модели имеют встроенные методы для извлечения важности признаков, поэтому будет легко интерпретировать их предсказания.
+% здесь заметка про важность признаков у деревьев

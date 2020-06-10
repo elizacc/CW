@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.17)  10 JUN 2020 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.17)  10 JUN 2020 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -805,18 +805,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [2]
 (./chapters/1_begin.tex) [3] (./chapters/3_pdp.tex
-<pics/pdp1.png, id=131, 889.3225pt x 566.115pt>
+<pics/pdp1.png, id=121, 889.3225pt x 566.115pt>
 File: pics/pdp1.png Graphic file (type png)
 <use pics/pdp1.png>
 Package pdftex.def Info: pics/pdp1.png  used on input line 10.
 (pdftex.def)             Requested size: 459.51054pt x 292.507pt.
  [4 <./pics/pdp1.png>]
-<pics/pdp2.png, id=140, 343.78438pt x 308.15125pt>
+<pics/pdp2.png, id=130, 343.78438pt x 308.15125pt>
 File: pics/pdp2.png Graphic file (type png)
 <use pics/pdp2.png>
 Package pdftex.def Info: pics/pdp2.png  used on input line 19.
 (pdftex.def)             Requested size: 362.77264pt x 325.17172pt.
-<pics/pdp3.png, id=141, 382.93062pt x 324.71312pt>
+<pics/pdp3.png, id=131, 382.93062pt x 324.71312pt>
 File: pics/pdp3.png Graphic file (type png)
 <use pics/pdp3.png>
 Package pdftex.def Info: pics/pdp3.png  used on input line 23.
@@ -830,7 +830,7 @@ LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 1.
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (./chapters/3_lime.tex [6]
-<pics/lime4.png, id=163, 1087.06125pt x 832.10875pt>
+<pics/lime4.png, id=153, 1087.06125pt x 832.10875pt>
 File: pics/lime4.png Graphic file (type png)
 <use pics/lime4.png>
 Package pdftex.def Info: pics/lime4.png  used on input line 15.
@@ -840,18 +840,18 @@ Overfull \hbox (15.63382pt too wide) in paragraph at lines 15--16
 [][] 
  []
 
-<pics/lime1.png, id=164, 835.12pt x 182.6825pt>
+<pics/lime1.png, id=154, 835.12pt x 182.6825pt>
 File: pics/lime1.png Graphic file (type png)
 <use pics/lime1.png>
 Package pdftex.def Info: pics/lime1.png  used on input line 22.
 (pdftex.def)             Requested size: 483.69687pt x 105.81096pt.
 [7 <./pics/lime4.png> <./pics/lime1.png>]
-<pics/lime2.png, id=174, 973.6375pt x 282.05376pt>
+<pics/lime2.png, id=163, 973.6375pt x 282.05376pt>
 File: pics/lime2.png Graphic file (type png)
 <use pics/lime2.png>
 Package pdftex.def Info: pics/lime2.png  used on input line 31.
 (pdftex.def)             Requested size: 483.69687pt x 140.12273pt.
-<pics/lime3.png, id=175, 1653.17625pt x 475.7775pt>
+<pics/lime3.png, id=164, 1653.17625pt x 475.7775pt>
 File: pics/lime3.png Graphic file (type png)
 <use pics/lime3.png>
 Package pdftex.def Info: pics/lime3.png  used on input line 38.
@@ -903,24 +903,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 ) [12] (./chapters/5_desc.tex) (./chapters/5_data.tex) (./chapters/5_models.tex
-) (./chapters/5_inter.tex) [13] (./chapters/6_analysis.tex) [14]
-(./chapters/7_end.tex) [15] 
+) (./chapters/7_end.tex) [13] [14] 
 AED: lastpage setting LastPage
-[16]
+[15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
  (./CW.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `CW.out' has not changed.
-(rerunfilecheck)             Checksum: 325F6982C66BA8F681FE5CD7575940BF;3007.
+(rerunfilecheck)             Checksum: DBDD33F49C6F6ACAC3D163311BE1A67B;2593.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
- 13441 strings out of 492639
- 189378 string characters out of 6133087
+ 13432 strings out of 492639
+ 189224 string characters out of 6133087
  290486 words of memory out of 5000000
- 17028 multiletter control sequences out of 15000+600000
+ 17026 multiletter control sequences out of 15000+600000
  15716 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,19n,38p,1300b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -939,10 +938,10 @@ nts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
 public/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-
 super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt
 1200.pfb>
-Output written on CW.pdf (16 pages, 2838928 bytes).
+Output written on CW.pdf (15 pages, 2840015 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
