@@ -20,17 +20,22 @@
 
 Теперь перейдем к описанным ранее методам. Первый -- PDP. Возьмем признаки, которые сам XGBoost посчитал наиболее важными: первые два из weight (adr, lead\_time), первый из gain (deposit\_type) и первый из cover (distribution\_channel\_GDS) -- они с отрывом вырываются в лидеры.
 
-И также возьмем признаки, которые XGBoost счел самыми незначительными: последний из weight (distribution\_channel\_GDS, забавно -- в тренировочной выборке всего 145 объектов, которым соответствует GDS. Судя по всему данный признак встречается 1-2 раза в узлах деревьев, но при этом он отсекает очень много объектов, из-за чего cover считает его важным), последние два из gain (customer\_type\_group, market\_segment\_Direct) и последний из cover (market\_segment\_Offline TA/TO).
+И также возьмем признаки, которые XGBoost счел самыми незначительными: последний из weight (distribution\_channel\_GDS, забавно -- в тренировочной выборке всего 145 объектов, которым соответствует GDS. Судя по всему данный признак встречается 1-2 раза в узлах деревьев, но при этом он отсекает очень много объектов, из-за чего cover считает его важным), последний из gain (customer\_type\_group) и последний из cover (market\_segment\_Offline TA/TO).
 
-Построим для них PDP. % на непрерывные как-то поадекватнее смотреть
+Построим для них PDP.
 
 \begin{tabular}{c|c}
 	\arrayrulecolor[rgb]{0.8,0.85,1}
 	\includegraphics*[width = 0.47\textwidth]{pics/mypdp1.png} & \includegraphics*[width = 0.47\textwidth]{pics/mypdp2.png}\\
 	\hline
-%	\includegraphics*[width = 0.5\textwidth]{mypdp3.png} & \includegraphics*[width = 0.5\textwidth]{mypdp4.png}}\\
-%	\hline
-%	\includegraphics*[width = 0.5\textwidth]{mypdp5.png} & \includegraphics*[width = 0.5\textwidth]{mypdp6.png}\\
-%	\hline
-%	\includegraphics*[width = 0.5\textwidth]{mypdp7.png} & \includegraphics*[width = 0.5\textwidth]{mypdp8.png}\\
+	\includegraphics*[width = 0.47\textwidth]{pics/mypdp3.png} & \includegraphics*[width = 0.47\textwidth]{pics/mypdp4.png}\\
+	\hline
+	\includegraphics*[width = 0.47\textwidth]{pics/mypdp5.png} & \includegraphics*[width = 0.47\textwidth]{pics/mypdp6.png}\\
 \end{tabular}\\[2mm]
+
+Первый признак является непрерывным, второй --  дискретным, третий -- порядковым, остальные -- бинарными. Для первых двух видно распределение значений признака (штриховка под графиком). Для остальных показана подвыборка значений признаков в виде дополнительных линий.
+
+По графикам видно, что:
+\begin{itemize}
+	\item признак adr оказался важным и с точки зрения PDP -- для 
+\end{itemize}
